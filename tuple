@@ -1,0 +1,12 @@
+aTuple = (123, 'abc', 4.56, ['inner', 'tuple'], 7-9j)
+anotherTuple = (None, 'something to see here')
+print(aTuple)
+print(anotherTuple)
+possib = (None,)
+print(possib)
+print(tuple('bar'))
+print(possib*10)
+
+print(aTuple[2:4])
+print(aTuple[0:8])
+print(aTuple[3][1])
